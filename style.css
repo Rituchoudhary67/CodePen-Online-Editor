@@ -55,3 +55,59 @@ section div p:hover {
     color: whitesmoke;
     cursor: pointer;
 }
+
+/* right side section  */
+.sec-two {
+    border: 3px solid white;
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sec-two header {
+    display: flex;
+}
+section header div {
+    color: lightgray;
+}
+.icon-text {
+    width: 70%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(49, 54, 54); 
+    border-radius: 5px;
+}
+.icon-text i {
+    background-color: rgb(49, 54, 54); 
+}
+.icon-text input {
+    outline: none;
+    border: none;
+    color: lightgray;
+    margin-left: 10px;
+    font-size: large;
+    font-family: sans-serif;
+    background-color: rgb(49, 54, 54) ;
+}
+.sec-two header button {
+    padding: 7px 10px 7px 10px ;
+    margin:0 5px 10px 5px;
+    border: none;
+}
+.sign-up {
+    background-color: green;
+    color: black;
+}
+.sign-up:hover {
+    background-color: rgb(15, 199, 15);
+    cursor: pointer;
+}
+.login {
+    background-color: rgb(49, 54, 54) ;
+}
+.login:hover {
+    background-color: rgb(21, 31, 31) ;
+    cursor: pointer;
+}
