@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+section svg {
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+}
