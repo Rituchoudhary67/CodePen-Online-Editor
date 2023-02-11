@@ -111,3 +111,80 @@ section header div {
     background-color: rgb(21, 31, 31) ;
     cursor: pointer;
 }
+
+/* container part is started  */
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 3px solid blue; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+/* left container part  */
+.left-cont {
+ /* border: 2px solid pink; */
+ width: 50%;
+ /* position: absolute; */
+    /* display: flex; */
+}
+.left-cont h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: -80px;
+    margin-left: 130px;
+    color: white;
+}
+.left-cont svg {
+    fill: white;
+    margin-left: -20px;
+    /* border: 2px solid red; */
+}
+.left-cont p {
+    margin: 10px 10px 10px 25px;
+    font-size: 1.2rem;
+}
+.left-cont button {
+    border: none;
+}
+/* right container part  */
+.right-cont {
+    /* border: 2px solid green; */
+    width: 50%;
+    color: white;
+    right: 0;
+    border-radius: 10px;
+    background-color: rgb(49, 54, 54) ;
+}
+.right-cont .right-cont-first{
+    width: 50%;
+    margin-left: 45%;
+    height: 130px;
+    border-radius: 5px;
+}
+#right-second {
+    width: 60%;
+    height: 180px;
+    margin-left: 35%;
+}
+#right-second p {
+    margin-left: 10px;
+}
+.right-cont .right-first, .right-cont .right-first .sub-first {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin: 10px; */
+}
+.right-first .sub-first {
+  
+    /* border: 2px solid deeppink; */
+    width: 70px;
+}
+.sub-first p {
+    color: lightgray;
+}
+#caret,.sub-first i {
+    color: gray;
+    /* border: 2px solid yellow; */
+}
