@@ -279,3 +279,19 @@ section header div {
     height: 100%;
     width: 100%;
 }
+
+/* sixth grid box react  */
+.six-grid-cont {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 30px 0;
+}
+.com-grid {
+    border-radius: 5px;
+    cursor: pointer;
+}
+.com-grid,.com-grid img ,.com-grid h2 {
+    background-color: rgb(49, 54, 54);
+    text-align: center;
+    margin-top: 40px;
+}
