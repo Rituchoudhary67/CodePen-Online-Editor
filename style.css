@@ -242,3 +242,9 @@ section header div {
     margin-left: 20px;
     word-spacing: 3px;
 }
+
+/* next button  */
+.next {
+    margin: 3.5% 45% 3.5% 45%;
+    cursor: pointer;
+}
