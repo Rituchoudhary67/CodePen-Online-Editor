@@ -295,3 +295,31 @@ section header div {
     text-align: center;
     margin-top: 40px;
 }
+
+/* footer part  */
+footer {
+    color: gray;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 40px 0;
+}
+.first-foo h4 {
+    letter-spacing: 0.5px;
+    word-spacing: 1.3px;
+    margin: 10px 0;
+    font-size: large;
+}
+.first-foo h4:hover {
+    color:white;
+    cursor: pointer;
+}
+.second-foo {
+    /* border: 2px solid orange; */
+    text-align: right;
+}
+.second-foo svg {
+    margin-right: -2px;
+}
+
