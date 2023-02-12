@@ -245,6 +245,37 @@ section header div {
 
 /* next button  */
 .next {
-    margin: 3.5% 45% 3.5% 45%;
+    margin: 4.5% 45% 3.5% 45%;
     cursor: pointer;
+}
+
+/* two div with img contaniner */
+.two-box-cont-img {
+    text-align: center;
+    /* border: 3px solid red; */
+}
+.two-box-cont-img h1 {
+    margin: 20px 0;
+}
+.two-box-cont-img h2, .two-box-cont-img i {
+    color: white;
+}
+.two-flex-box {
+    display: flex;
+}
+.first-flex,.second-flex {
+    height: 400px;
+    width: 40%;
+    /* border: 2px solid deeppink; */
+}
+.first-flex h2 {
+    text-align: left;
+    margin: 20px 0;
+}
+.second-flex  {
+    width: 60%;
+}
+.second-flex img {
+    height: 100%;
+    width: 100%;
 }
