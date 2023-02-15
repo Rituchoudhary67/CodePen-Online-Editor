@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+header {
+    border-bottom: 1px solid gray;
+}
+header svg {
+    fill: white;  
+    height: 40px;
+    width: 40px;
+    margin: 10px ;
+}
+.first-header, header{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid wheat; */
+}
+.first-header h2 {
+    /* border: 1px solid red; */
+    margin: 10px 0 5px 0;
+    font-family: sans-serif;
+}
+.first-header p {
+    color: gray;
+    margin-bottom: 5px;
+}
+.h-c-j {
+    display: flex;
+    justify-content: space-around;
+}
+.h-c-j p {
+    background-color: rgb(68, 68, 68);
+    padding: 5px 10px 0 10px;
+}
+.btns button {
+    /* border: 1px solid white; */
+    padding: 15px;
+    margin: 10px 10px 10px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: rgb(68, 68, 68);
+}
+.btns button i{
+    background-color: rgb(68, 68, 68);
+}
+.btns button:hover {
+    background-color: rgb(131, 128, 128);
+    cursor: pointer;
+}
+#sign-up {
+    background-color: rgb(52, 185, 52);
+    color: black;
+}
+#sign-up:hover {
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+.text-box-three {
+    /* border: 1px solid white; */
+   
+}
+.text-box-three textarea {
+    /* background-color: red; */
+    height: 330px;
+    width: 32.3%;
+    border: none;
+    outline: none;
+    background-color: rgb(68, 68, 68);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: large;
+}
+.iframe-output iframe {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    height: 31%;
+    bottom: 10px;
+    margin-top: 10px;
+}
