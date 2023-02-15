@@ -77,9 +77,7 @@ header svg {
 .iframe-output iframe {
     width: 100%;
     background-color: white;
-    position: absolute;
     padding: 20px;
-    height: 31%;
-    bottom: 10px;
-    margin-top: 10px;
+   
+  
 }
