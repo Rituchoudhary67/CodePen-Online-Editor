@@ -60,7 +60,7 @@ header svg {
     cursor: pointer;
 }
 .text-box-three {
-    /* border: 1px solid white; */
+   margin-bottom: 10px;
    
 }
 .text-box-three textarea {
