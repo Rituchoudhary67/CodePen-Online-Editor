@@ -31,7 +31,13 @@ section button {
     border-radius: 5px;
     margin: 20px 10px 10px 20px;
     font-size: large;
+    cursor: pointer;
 }
+#start-btn:hover {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+}
+
+
 section h3 {
     color: white;
     padding: 10px 20px 10px 20px;
