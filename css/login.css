@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+/* left side section part  */
+.first-section {
+    border-right: 1px solid gray;
+    background-color: black;
+    height: 100vh;
+    width: 15%;
+    color: lightgray;
+    position: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section svg {
+    margin: 20px;
+    height: 50px;
+    width: 150px;
+}
+section h6 {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0 10px 0 15px;
+}
+section button {
+    color: white;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    margin: 20px 10px 10px 20px;
+    font-size: large;
+}
+section h3 {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 0.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section h3:hover {
+    cursor: pointer;
+    background-color: rgb(49, 54, 54);
+}
+section div {
+    margin: 20px 20px 0 20px ;
+}
+section div img {
+    height: 100px;
+    width: 130px;
+}
+section div p {
+    color: gray;
+}
+section div p:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+#start-btn:hover {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+}
+/* right side section  */
+.sec-two {
+    /* border: 3px solid white; */
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sec-two header {
+    display: flex;
+}
+.sec-two .end {
+    /* border: 1px solid red; */
+    padding-bottom: 50px;
+}
+section header div {
+    color: lightgray;
+}
+.icon-text {
+    width: 80%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(49, 54, 54); 
+    border-radius: 5px;
+}
+.icon-text i {
+    background-color: rgb(49, 54, 54); 
+}
+.icon-text input {
+    outline: none;
+    border: none;
+    color: lightgray;
+    margin-left: 10px;
+    font-size: large;
+    font-family: sans-serif;
+    background-color: rgb(49, 54, 54) ;
+}
+.sign-up {
+    margin-left: 50px;
+    margin-top: 0;
+    border: none;
+    padding: 10px;
+    background-color: rgb(81, 204, 81);
+    color: black;
+}
+.sign-up:hover {
+    background-color: rgb(15, 199, 15);
+    cursor: pointer;
+}
+.login-cont {
+    /* border: 1px solid red; */
+    width: 60%;
+    /* height: 80%; */
+    margin: 5% auto;
+}
+.login-cont h1 {
+    font-size: 3.5rem;
+}
+.first-second {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.first-second p {
+    text-align: center;
+    color: aqua;
+    margin-top: 20px;
+    margin-left: 35px;
+    /* border: 2px solid pink; */
+    width: 200px;
+}
+.first-login-cont {
+    border-right: 2px solid gray;
+    margin: 0;
+}
+.first-login-cont input,.log-btn {
+    width: 85%;
+    border-radius: 5px;
+    height: 45px;
+    font-size: large;
+    /* outline: none; */
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.log-btn {
+   margin: 0;
+   background-color: rgb(81, 204, 81);
+   color: black;
+}
+.log-btn:hover {
+    background-color: rgb(20, 255, 20);
+}
+.second-login-cont {
+    /* border:1px solid aqua; */
+    margin: 0;
+}
+.or {
+    border: 2px solid gray;
+    /* height: 35px; */
+    position: absolute;
+    /* position: relative; */
+    margin-top: -11%;
+    padding: 5px;
+    margin-left: 26%;
+    width: 50px;
+    border-radius: 5px;
+    color: gray;
+}
+#twitter {
+    background-color:  #1da1f2;
+}
+#github {
+    background-color:  #57606a;
+}
+#facebook {
+    background-color: #036ce5;
+}
+#twitter,#github,#facebook {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: none;
+}
+#twitter:hover {
+    background-color: #029dfdd5;
+    cursor: pointer;
+}
+#github:hover {
+    background-color: rgb(151, 148, 148);
+    cursor: pointer;
+}
+#facebook:hover {
+    background-color: #3a87df;
+    cursor: pointer;
+}
+
+.log-h1 {
+    margin-left: 20px;
+}
