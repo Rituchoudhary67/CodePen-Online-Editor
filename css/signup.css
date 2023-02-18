@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    color: white;
 }
 /* left side section part  */
 .first-section {
@@ -55,6 +56,9 @@ section div p {
 section div p:hover {
     color: whitesmoke;
     cursor: pointer;
+}
+#start-btn:hover {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
 }
 
 /* right side section  */
@@ -109,14 +113,13 @@ section header div {
   margin-left: 50px;
 }
 .signup-cont {
-    border: 1px solid red;
-    /* border-top: 2px solid aqua; */
+    border: 1px solid gray;
+    border-top: 2px solid aqua;
     width: 60%;
-    height: 80%;
     margin: 5% auto;
 }
 .sign-h1 {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     color:white;
     text-align: center;
     height: 200px;
@@ -135,20 +138,25 @@ section header div {
     background-color: rgb(49, 54, 54) ;
 }
 .two-cont-signup {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     display: flex;
     margin: 0;
 }
 .first-box-cont {
-    border: 3px solid aqua;
+    /* border: 3px solid aqua; */
     width: 70%;
     margin: 0;
     background-color: white;
 }
 .second-box-cont {
-    border:3px solid yellow;
+    /* border:3px solid yellow; */
     width: 30%;
     margin: 0;
+   
+}
+.second-box-cont pre {
+    font-family: sans-serif;
+    margin-top: 5px;
 }
 #twitter {
     background-color:  #1da1f2;
@@ -158,4 +166,30 @@ section header div {
 }
 #facebook {
     background-color: #036ce5;
+}
+#twitter,#github,#facebook {
+    width: 90%;
+    border-radius: 5px;
+}
+#email {
+    background-color: rgb(56, 54, 54) ;   
+    border-radius: 5px;
+}
+#twitter:hover,#github:hover,#facebook:hover,#email:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.or {
+    background-color: white;
+    color:rgb(59, 58, 58);
+    font-size: large;
+    margin-left: 20px;
+}
+.white-aqua {
+    background-color: white;
+    margin-left: 20px;
+}
+.or:hover,.white-aqua:hover {
+    color:rgb(59, 58, 58);
 }
