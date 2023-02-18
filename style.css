@@ -310,6 +310,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin: 40px 0 40px 0;
+    padding-bottom: 50px;
 }
 .first-foo h4 {
     letter-spacing: 0.5px;
