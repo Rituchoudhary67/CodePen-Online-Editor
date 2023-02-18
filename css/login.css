@@ -76,6 +76,7 @@ section div p:hover {
 .sec-two .end {
     /* border: 1px solid red; */
     padding-bottom: 50px;
+    padding-top: 10px;
 }
 section header div {
     color: lightgray;
@@ -99,6 +100,7 @@ section header div {
     font-size: large;
     font-family: sans-serif;
     background-color: rgb(49, 54, 54) ;
+   
 }
 .sign-up {
     margin-left: 50px;
@@ -116,7 +118,7 @@ section header div {
     /* border: 1px solid red; */
     width: 60%;
     /* height: 80%; */
-    margin: 5% auto;
+    margin: 3% auto;
 }
 .login-cont h1 {
     font-size: 3.5rem;
@@ -142,7 +144,8 @@ section header div {
     border-radius: 5px;
     height: 45px;
     font-size: large;
-    /* outline: none; */
+    outline: none;
+    color: black;
     border: none;
     margin-top: 7px;
     margin-bottom: 25px;
