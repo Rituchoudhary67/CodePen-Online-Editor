@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: sans-serif;
+}
+/* left side section part  */
+.first-section {
+    border-right: 1px solid gray;
+    background-color: black;
+    height: 100vh;
+    width: 15%;
+    color: lightgray;
+    position: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section svg {
+    margin: 20px;
+    height: 50px;
+    width: 150px;
+}
+section h6 {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0 10px 0 15px;
+}
+section button {
+    color: white;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    margin: 20px 10px 10px 20px;
+    font-size: large;
+    cursor: pointer;
+}
+#start-btn:hover {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+}
+
+
+section h3 {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 0.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section h3:hover {
+    cursor: pointer;
+    background-color: rgb(49, 54, 54);
+}
+section div {
+    margin: 20px 20px 0 20px ;
+}
+section div img {
+    height: 100px;
+    width: 130px;
+}
+section div p {
+    color: gray;
+}
+section div p:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* right side section  */
+.sec-two {
+    /* border: 3px solid white; */
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sec-two header {
+    display: flex;
+}
+section header div {
+    color: lightgray;
+}
+.icon-text {
+    width: 75%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(49, 54, 54); 
+    border-radius: 5px;
+}
+.icon-text i {
+    background-color: rgb(49, 54, 54); 
+}
+.icon-text input {
+    outline: none;
+    border: none;
+    color: lightgray;
+    margin-left: 10px;
+    font-size: large;
+    font-family: sans-serif;
+    background-color: rgb(49, 54, 54) ;
+}
+.sec-two header button {
+    padding: 7px 10px 7px 10px ;
+    margin:0 5px 10px 5px;
+    border: none;
+}
+.sign-up {
+    background-color: green;
+    color: black;
+}
+.sign-up:hover {
+    background-color: rgb(15, 199, 15);
+    cursor: pointer;
+}
+.login {
+    background-color: rgb(49, 54, 54) ;
+}
+.login:hover {
+    background-color: rgb(75, 75, 75) ;
+    cursor: pointer;
+}
+.first-container {
+    /* background-color: rgb(49, 54, 54) ; */
+    /* margin: 0; */
+}
+.first-container button {
+    padding: 8px;
+    color: gray;
+    border: none;
+    background-color: rgb(49, 54, 54);
+    margin-right: 10px;
+}
+.first-container button i {
+    background-color: rgb(49, 54, 54);
+}
+.first-container button:hover {
+    color: white;
+    background-color: rgb(114, 112, 112);
+}
+.sub-cont {
+    display: flex;
+}
+.sub-cont p,.sub-cont select {
+    margin: 0 10px;
+    /* font-size: large; */
+    padding: 10px;
+}
+.sub-cont p {
+  font-size: 0.9rem;
+}
+.sub-cont select {
+  border-radius: 5px;
+}
+.center {
+    background-color: rgb(49, 54, 54);
+    color: lightgray;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px 0;
+}
+/* footer part  */
+footer {
+    color: gray;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 40px 0;
+    padding-bottom: 50px;
+}
+.first-foo h4 {
+    letter-spacing: 0.5px;
+    word-spacing: 1.3px;
+    margin: 10px 0;
+    font-size: large;
+}
+.first-foo h4:hover {
+    color:white;
+    cursor: pointer;
+}
+.second-foo {
+    /* border: 2px solid orange; */
+    text-align: right;
+}
+.second-foo svg {
+    margin-right: -2px;
+}
+
