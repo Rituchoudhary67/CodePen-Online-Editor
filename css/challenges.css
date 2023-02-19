@@ -63,6 +63,9 @@ section div p:hover {
     color: whitesmoke;
     cursor: pointer;
 }
+a {
+    text-decoration: none;
+}
 
 /* right side section  */
 .sec-two {
@@ -160,3 +163,7 @@ section header div {
     width: 100%;
     height: 100%;
 }
+.sub-cont h2 {
+    color: white;
+    padding: 10px 0;
+} 
