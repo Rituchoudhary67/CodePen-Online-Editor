@@ -330,3 +330,6 @@ footer {
     margin-right: -2px;
 }
 
+a {
+    text-decoration: none;
+}
