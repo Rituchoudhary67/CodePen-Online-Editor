@@ -167,3 +167,16 @@ section header div {
     color: white;
     padding: 10px 0;
 } 
+.grid-cont .grid-box {
+    background-color: rgb(36,35,35);
+    border: 1px solid red;
+}
+.grid-box h1 {
+    color: white;
+    font-size: 2.5rem;
+    background-color: rgb(36,35,35);
+}
+.grid-box p {
+    background-color: rgb(36,35,35);
+    color: lightgray;
+}
