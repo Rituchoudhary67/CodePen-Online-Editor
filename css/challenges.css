@@ -169,14 +169,55 @@ section header div {
 } 
 .grid-cont .grid-box {
     background-color: rgb(36,35,35);
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.grid-cont {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .grid-box h1 {
     color: white;
     font-size: 2.5rem;
+    margin-bottom: 10px;
     background-color: rgb(36,35,35);
+}
+.grid-box h1:hover {
+    color:aqua;
+    cursor: pointer;
 }
 .grid-box p {
     background-color: rgb(36,35,35);
     color: lightgray;
+    margin: 0 24px;
+    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+}
+.grid-box h6 {
+    margin: 20px 0 20px 24px;
+} 
+.icon-h1 {
+    display: flex;
+    background-color: rgb(36,35,35);
+}
+.icon-h1 i {
+    background-color: aqua;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: -35px;
+    /* margin: 10px; */
+    font-size: larger;
+}
+.two-div {
+    color: lightgray;
+    background-color: black;
+    display: flex;
+    /* border: 2px solid pink; */
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
