@@ -5,6 +5,9 @@
     background-color: black;
     color: white;
 }
+a {
+    text-decoration: none;
+}
 /* left side section part  */
 .first-section {
     border-right: 1px solid gray;
