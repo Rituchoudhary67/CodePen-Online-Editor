@@ -212,3 +212,16 @@ section header div {
 .log-h1 {
     margin-left: 20px;
 }
+
+/* media query for tablet  */
+@media screen and  (max-width:1023px) {
+    .first-section,.or  {
+        display: none;
+    }
+    .sec-two,.login-cont {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+}
+

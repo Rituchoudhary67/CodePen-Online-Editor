@@ -169,6 +169,9 @@ section header div {
     height: 130px;
     border-radius: 5px;
 }   
+.right-cont-first {
+    overflow: hidden;
+}
 #right-second {
     width: 60%;
     height: 180px;

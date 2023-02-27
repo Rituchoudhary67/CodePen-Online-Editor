@@ -196,3 +196,13 @@ section header div {
 .or:hover,.white-aqua:hover {
     color:rgb(59, 58, 58);
 }
+
+@media screen and (max-width:1023px) {
+    .first-section {
+        display: none;
+    }
+    .sec-two ,.signup-cont {
+        width: 100%;
+        overflow: hidden;
+    }
+}
