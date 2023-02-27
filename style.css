@@ -335,9 +335,10 @@ a {
 }
 
 /* media query for tablet */
-@media screen and (max-width:1023px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .first-section,.left-cont ,.first-flex {
         display: none;
+        border: 3px solid red;
     }
     .sec-two,.right-cont,.second-flex {
         width: 100%;
@@ -346,4 +347,19 @@ a {
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+}
+
+/* media query for smartphone  */
+@media screen and (max-width:767px) {
+    .first-section,.left-cont ,.first-flex {
+        display: none;
+    }
+    .sec-two,.right-cont,.second-flex {
+        width: 100%;
+    }
+    .box ,.six-cont,.six-grid-cont  {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 }
