@@ -355,7 +355,7 @@ a {
     }
     #ham-burgar {
         display: flex;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         font-size: 2rem;
         height: 30px;
         width: 30px;
@@ -406,7 +406,7 @@ a {
     }
     #ham-burgar {
         display: flex;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         font-size: 2rem;
         height: 30px;
         width: 30px;
