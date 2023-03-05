@@ -205,4 +205,8 @@ section header div {
         width: 100%;
         overflow: hidden;
     }
+    .icon-text input {
+        overflow: hidden;
+    }
+  
 }

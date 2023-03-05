@@ -222,6 +222,9 @@ section header div {
         width: 100%;
        
     }
-    
+    .icon-text input {
+        overflow: hidden;
+    }
+  
 }
 
